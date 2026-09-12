@@ -1,0 +1,41 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging / build output
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local data referenced by the notebook
+# These files are currently absent from the repository and may need to be
+# supplied locally to reproduce all cells.
+dataset_part_2.csv
+dataset_part_3.csv
+data/*.csv
+
+# Local databases / generated persistence files
+*.db
+*.sqlite
+*.sqlite3
+
+# Coverage / reports
+.coverage
+htmlcov/

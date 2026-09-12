@@ -1,0 +1,18 @@
+# Dependencies used by SpaceX_Falcon9_Landing_Prediction.ipynb
+#
+# Versions are intentionally not pinned in this documentation-only polish pass.
+# The original notebook contains environment-specific installation/output cells,
+# but the repository did not include a tested lockfile or reproducible environment.
+
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+folium
+SQLAlchemy
+ipython-sql
+dash
+plotly
+tensorflow
+jupyter
